@@ -1,0 +1,63 @@
+package View;
+
+import Model.Schedule;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/**
+ * Created by gaoyiming on 2017/5/18.
+ */
+public class SchedulePage extends JFrame {
+    //seperate into two panel, one is for the top label, one is for the schedule list
+    //declare the components
+    private JPanel schedulePanel;
+    private JPanel topLabelPanel;
+    private JLabel topLabel;
+    private ArrayList<JButton> buttonList;
+
+    public SchedulePage(ArrayList scheduleList) {
+        this.Init(scheduleList);
+        this.setSize(1600, 1000);
+        this.setVisible(true);
+    }
+
+    private void Init(ArrayList scheduleList) {
+        this.topLabel = new JLabel("Please Choose The Schedule");
+        this.topLabel.setFont(new Font("TOPLABEL", Font.PLAIN, 50));
+        this.topLabelPanel = new JPanel();
+        topLabelPanel.add(topLabel, BorderLayout.CENTER);
+        //wait for the font set
+
+        this.schedulePanel = new JPanel();
+        this.buttonList = new ArrayList<JButton>();
+        this.schedulePanel.setLayout(new FlowLayout());
+        for (Iterator it = scheduleList.iterator(); it.hasNext(); ) {
+            Schedule schedule = (Schedule) it.next();//get the schedule
+
+            //generate the button
+            JButton button = new JButton(schedule.getStartTime());
+            button.setFont(new Font("TOPLABEL", Font.PLAIN, 50));
+            button.setName(schedule.getID());
+            this.buttonList.add(button);
+            this.schedulePanel.add(button);
+        }
+
+        this.setLayout(new BorderLayout());
+        this.add(topLabelPanel, BorderLayout.NORTH);
+        this.add(schedulePanel, BorderLayout.CENTER);
+    }
+
+
+    //method to construct the action of choose
+    public void addListenerToScheduleButtons(ActionListener actionListener) {
+        for (Iterator it = this.buttonList.iterator(); it.hasNext(); ) {
+            JButton button = (JButton) it.next();
+            button.addActionListener(actionListener);
+        }
+    }
+
+}
