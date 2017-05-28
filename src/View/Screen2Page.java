@@ -81,7 +81,7 @@ public class Screen2Page extends JFrame {
     public Screen2Page() {
         this.init();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(100, 100, 900, 600);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
 
     }
@@ -97,7 +97,7 @@ public class Screen2Page extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         contentPane.setLayout(new BorderLayout(0, 0));
         setContentPane(contentPane);
-        lblScreen.setFont(new Font(Font.DIALOG, 1, 25));
+        lblScreen.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
         contentPane.add(lblScreen, BorderLayout.NORTH);
         contentPane.add(panel, BorderLayout.CENTER);
 
@@ -210,14 +210,14 @@ public class Screen2Page extends JFrame {
         contentPane.add(panel_3, BorderLayout.SOUTH);
         panel_3.setLayout(new GridLayout(2, 1, 0, 0));
         lblScreen_1.setOpaque(true);
-        lblScreen_1.setFont(new Font(Font.DIALOG, 0, 22));
+        lblScreen_1.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         lblScreen_1.setBackground(new Color(100, 149, 237));
 
         panel_3.add(lblScreen_1);
         panel_3.add(panel_4);
 
-        btnReturn.setFont(new Font(Font.DIALOG, 1, 20));
-        btnYes.setFont(new Font(Font.DIALOG, 1, 20));
+        btnReturn.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+        btnYes.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         panel_4.add(btnReturn);
         btnReturn.setName("Return");
         panel_4.add(btnYes);
@@ -230,58 +230,60 @@ public class Screen2Page extends JFrame {
  */
     public void select(int n, int m) {
 
-        if (state[4 - n][8 - m] == 0) {
-            System.out.println("3");
+        if (state[4-n][8 - m] == 0) {
+
             if (n == 4) {
-                if (m >= 4) {
+                if (m >= 5) {
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setOpaque(true);
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setBackground(Color.GREEN);//change the color of selected seat to green
-                    state[4 - n][8 - m] = 1;
+                    state[4-n][8 - m] = 1;
                 }
-                if (m <= 3) {
+                if (m <= 4) {
                     seatr.get(4 * (4 - n) + (4 - m)).setOpaque(true);
                     seatr.get(4 * (4 - n) + (4 - m)).setBackground(Color.GREEN);
-                    state[4 - n][8 - m] = 1;
+                    state[4-n][8 - m] = 1;
                 }
             }
-        } else {
-            System.out.println("1");
+        }
+        else {
+
             if (n == 4) {
-                if (m >= 4) {
+                if (m >= 5) {
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setBackground(null);
-                    state[4 - n][8 - m] = 0;
+                    state[4-n][8 - m] = 0;
                 }
-                if (m <= 3) {
+                if (m <= 4) {
                     seatr.get(4 * (4 - n) + (4 - m)).setBackground(null);
-                    state[4 - n][8 - m] = 0;
+                    state[4-n][8 - m] = 0;
                 }
             }
         }
 
-        if (state[4 - n][7 - m] == 0) {
-            System.out.println("4");
+        if (state[4-n][7 - m] == 0){
+
             if (n <= 3) {
                 if (m >= 4) {
                     seatl.get(4 * (4 - n) + (7 - m)).setOpaque(true);
                     seatl.get(4 * (4 - n) + (7 - m)).setBackground(Color.GREEN);//change the color of selected seat to green
-                    state[4 - n][7 - m] = 1;
+                    state[4-n][7 - m] = 1;
                 }
                 if (m <= 3) {
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setOpaque(true);
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setBackground(Color.GREEN);
-                    state[4 - n][7 - m] = 1;
+                    state[4-n][7 - m] = 1;
                 }
             }
-        } else {
-            System.out.println("2");
+        }
+        else{
+
             if (n <= 3) {
                 if (m >= 4) {
                     seatl.get(4 * (4 - n) + (7 - m)).setBackground(null);
-                    state[4 - n][7 - m] = 0;
+                    state[4-n][7 - m] = 0;
                 }
                 if (m <= 3) {
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setBackground(null);
-                    state[4 - n][7 - m] = 0;
+                    state[4-n][7 - m] = 0;
                 }
             }
         }

@@ -29,7 +29,7 @@ public class GoodByePage extends JFrame implements ActionListener {
     public GoodByePage() {
         this.init();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(100, 100, 900, 600);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
     }
 
@@ -41,14 +41,14 @@ public class GoodByePage extends JFrame implements ActionListener {
         contentPane.add(panel, BorderLayout.CENTER);
 
         panel.setLayout(new GridLayout(2, 0, 0, 0));
-        lblBye.setFont(new Font(Font.DIALOG, 1, 45));
-        lblHaveAGood.setFont(new Font(Font.DIALOG, 1, 45));
+        lblBye.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 45));
+        lblHaveAGood.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 45));
         panel.add(lblBye);
         panel.add(lblHaveAGood);
 
         contentPane.add(panel_1, BorderLayout.SOUTH);
 
-        btnBye.setFont(new Font(Font.DIALOG, 1, 25));
+        btnBye.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 25));
         panel_1.add(btnBye);
         btnBye.setName("Bye");
 

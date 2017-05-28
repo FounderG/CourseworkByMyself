@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CourseworkByMyself:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CourseworkByMyself_jar</output-path>
+    <root id="archive" name="CourseworkByMyself.jar">
+      <element id="module-output" name="CourseworkByMyself" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="directory" name="src">
+        <element id="directory" name="Resource">
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/0001.png" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/0002.png" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/0003.png" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/0004.png" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/0005.png" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/Movies.xml" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/Resource/Schedule.xml" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

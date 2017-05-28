@@ -1,0 +1,6 @@
+Ticket ID: 32323232
+Movie Name: LA LA LAND
+Start Time: 10:30
+Screen: 2
+Seat: D7
+Ticket Type: Adult

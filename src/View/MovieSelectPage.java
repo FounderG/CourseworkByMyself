@@ -15,7 +15,7 @@ public class MovieSelectPage extends JFrame {
 
     public MovieSelectPage() {
         Init();
-        this.setSize(1600, 1000);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
     }
 
@@ -29,7 +29,7 @@ public class MovieSelectPage extends JFrame {
         ImageIcon img4 = new ImageIcon("src/Resource/0004.png");
         ImageIcon img5 = new ImageIcon("src/Resource/0005.png");
 
-        JLabel l = new JLabel("FILM TODAY");
+        JLabel l = new JLabel("Movie Today",JLabel.CENTER);
         this.i1 = new JButton(img1);
         i1.setName("0001");
         this.i2 = new JButton(img2);
@@ -42,24 +42,23 @@ public class MovieSelectPage extends JFrame {
         i5.setName("0005");
 
 
-        l.setFont(new Font("", Font.PLAIN, 35));
+        l.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
 
+        i1.setBounds(160, 45, 130, 200);
+        i2.setBounds(400, 45, 130, 200);
+        i3.setBounds(640, 45, 130, 200);
+        i4.setBounds(280, 275,130, 200);
+        i5.setBounds(520, 275,130, 200);
 
-        l.setBounds(700, 50, 400, 100);
-        i1.setBounds(175, 150, 194, 289);
-        i2.setBounds(650, 150, 194, 289);
-        i3.setBounds(1125, 150, 194, 289);
-        i4.setBounds(650, 550, 194, 289);
-        i5.setBounds(1125, 550, 194, 289);
-
-        p.add(l);
+      
         p.add(i1);
         p.add(i2);
         p.add(i3);
         p.add(i4);
         p.add(i5);
 
-        this.add(p);
+        this.add(BorderLayout.NORTH,l);
+        this.add(BorderLayout.CENTER,p);
     }
 
     public void ListenToMovieSelected(ActionListener actionListener) {

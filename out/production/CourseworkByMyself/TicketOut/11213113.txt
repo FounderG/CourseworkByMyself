@@ -1,0 +1,6 @@
+Ticket ID: 11213113
+Movie Name: BEAUTY AND THE BEAST
+Start Time: 10:30
+Screen: 3
+Seat: A5
+Ticket Type: Adult

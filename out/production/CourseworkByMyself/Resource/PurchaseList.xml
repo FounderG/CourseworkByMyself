@@ -97,4 +97,54 @@
             </Ticket>
         </TicketList>
     </PurchaseInfo>
-</PurchaseList>
+    <PurchaseInfo ID="8d51f352-2b39-4432-9c53-0a41456da803" Time="2017-05-28T22:28:14.409">
+        <TicketList>
+            <Ticket ID="21213321">
+                <Schedule>0011</Schedule>
+                <Type>3</Type>
+                <Seat>A6</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="23121311">
+                <Schedule>0011</Schedule>
+                <Type>3</Type>
+                <Seat>A3</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="11213113">
+                <Schedule>0011</Schedule>
+                <Type>2</Type>
+                <Seat>A5</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="22121112">
+                <Schedule>0011</Schedule>
+                <Type>4</Type>
+                <Seat>A4</Seat>
+                <Price>13.6</Price>
+                <Reference>123456</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+    <PurchaseInfo ID="2ce6fe89-9e30-4c51-96e7-bcf6e04cea5b" Time="2017-05-29T02:27:26.969">
+        <TicketList>
+            <Ticket ID="32222213">
+                <Schedule>0015</Schedule>
+                <Type>4</Type>
+                <Seat>D5</Seat>
+                <Price>13.6</Price>
+                <Reference>124366777</Reference>
+            </Ticket>
+            <Ticket ID="11123322">
+                <Schedule>0015</Schedule>
+                <Type>3</Type>
+                <Seat>A5</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+<PurchaseInfo ID="561a8d5d-b77f-417a-9839-b822b7ecadc3" Time="2017-05-29T02:30:31.053"><TicketList><Ticket ID="32323232"><Schedule>0006</Schedule><Type>2</Type><Seat>D7</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket><Ticket ID="31221212"><Schedule>0006</Schedule><Type>2</Type><Seat>D6</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket></TicketList></PurchaseInfo><PurchaseInfo ID="d9d1abf5-fe54-4d9f-8a4f-efd60929a78d" Time="2017-05-29T02:31:50.721"><TicketList><Ticket ID="33122312"><Schedule>0014</Schedule><Type>2</Type><Seat>E5</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket></TicketList></PurchaseInfo></PurchaseList>

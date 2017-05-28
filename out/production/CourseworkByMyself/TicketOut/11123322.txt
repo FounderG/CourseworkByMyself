@@ -1,0 +1,6 @@
+Ticket ID: 11123322
+Movie Name: KONG: SKULL ISLAND
+Start Time: 20:30
+Screen: 3
+Seat: A5
+Ticket Type: Senior

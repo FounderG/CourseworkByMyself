@@ -86,7 +86,7 @@ public class Screen3Page extends JFrame {
     public Screen3Page() {
         this.init();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(100, 100, 900, 600);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
 
     }
@@ -102,7 +102,7 @@ public class Screen3Page extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         contentPane.setLayout(new BorderLayout(0, 0));
         setContentPane(contentPane);
-        lblScreen.setFont(new Font(Font.DIALOG, 1, 25));
+        lblScreen.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
         contentPane.add(lblScreen, BorderLayout.NORTH);
         contentPane.add(panel, BorderLayout.CENTER);
 
@@ -233,13 +233,13 @@ public class Screen3Page extends JFrame {
         contentPane.add(panel_1, BorderLayout.SOUTH);
         panel_1.setLayout(new GridLayout(2, 1, 0, 0));
         lblScreen_1.setOpaque(true);
-        lblScreen_1.setFont(new Font(Font.DIALOG, 0, 22));
+        lblScreen_1.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         lblScreen_1.setBackground(new Color(100, 149, 237));
         panel_1.add(lblScreen_1);
         panel_1.add(panel_2);
 
-        btnReturn.setFont(new Font(Font.DIALOG, 1, 20));
-        btnYes.setFont(new Font(Font.DIALOG, 1, 20));
+        btnReturn.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+        btnYes.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         panel_2.add(btnReturn);
         btnReturn.setName("Return");
         panel_2.add(btnYes);

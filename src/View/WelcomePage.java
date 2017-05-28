@@ -7,37 +7,42 @@ import java.awt.event.*;
 
 public class WelcomePage extends JFrame {
 
+    private JPanel p1 = new JPanel();
     private JPanel p = new JPanel();
-    private JLabel l = new JLabel("Welcome To The Cinema!");
+    private JLabel l = new JLabel("Welcome To The Cinema!",JLabel.CENTER);
 
     private JButton customer = new JButton("Customer");
     private JButton administrater = new JButton("Administrator");
 
     public WelcomePage() {
         run();
-        this.setSize(1600, 1000);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
     }
 
     private void run() {
-        this.getContentPane().add(BorderLayout.CENTER, p);
+       
+
+        l.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 50));
+        p1.setLayout(new GridLayout(2,1));
+        p1.add(l);
+        
+        customer.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+        administrater.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+      
         p.setLayout(null);
-
-        l.setFont(new Font("Welcome to the Cinema!", Font.PLAIN, 50));
-
-        customer.setFont(new Font("Customer", Font.PLAIN, 20));
-        administrater.setFont(new Font("Administrator", Font.PLAIN, 20));
-
-        l.setBounds(500, 300, 1200, 150);
-        customer.setBounds(900, 600, 300, 150);
-        administrater.setBounds(300, 600, 300, 150);
-
+        customer.setBounds(227, 50, 200, 61);
+		p.add(customer);
+	
+		administrater.setBounds(481, 50, 200, 61);
+		p.add(administrater); 
+                 
+        p1.add(p);
+        this.add(p1);   
         customer.setName("Customer");
         administrater.setName("Administrator");
 
-        p.add(l);
-        p.add(customer);
-        p.add(administrater);
+      
 
     }
 

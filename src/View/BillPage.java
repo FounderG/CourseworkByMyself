@@ -28,7 +28,7 @@ public class BillPage extends JFrame {
     private final JLabel tt = new JLabel("");
     private double total = 0;
 
-    private String[] Names = {"Type", "Price / £"};
+    private String[] Names = {"Type", "Price /£"};
     private DefaultTableModel defaultTableModel = null;
     private String[][] s = new String[15][2];
     private JScrollPane scrollPane = new JScrollPane();
@@ -36,7 +36,7 @@ public class BillPage extends JFrame {
     public BillPage(ArrayList<String> a) {
         this.init(a);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(100, 100, 900, 600);
+        this.setBounds(500, 200, 900, 600);
         //this.setSize(900, 600);
         this.setVisible(true);
 
@@ -55,13 +55,19 @@ public class BillPage extends JFrame {
                 total += 16;
         }
 
-        l.setFont(new Font(Font.DIALOG, 1, 40));
+        l.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
 
         defaultTableModel = new DefaultTableModel(initS(a), Names);
 
         table = new JTable(defaultTableModel);
-        table.setSize(800, 400);
+        table.setFont(new Font("Berlin Sans FB", Font.PLAIN, 28));
+        table.setRowHeight(40);
+        table.getTableHeader().setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 28));
+        DefaultTableCellRenderer renderer=new DefaultTableCellRenderer();
+        renderer.setHorizontalAlignment(DefaultTableCellRenderer.CENTER);
 
+         table.setDefaultRenderer(Object.class, renderer);
+        
         scrollPane.setViewportView(table);
 
         p2.setLayout(new GridLayout(2, 1, 0, 0));
@@ -69,12 +75,12 @@ public class BillPage extends JFrame {
         p2.add(panel);
 
         panel_1.setLayout(new GridLayout(1, 2));
-        lblTotal.setFont(new Font(Font.DIALOG, 0, 25));
+        lblTotal.setFont(new Font("Berlin Sans FB", Font.PLAIN, 30));
         lblTotal.setText("Total:" + total);
         panel_1.add(lblTotal);
 
-        btnReturn.setFont(new Font(Font.DIALOG, 1, 25));
-        btnYes.setFont(new Font(Font.DIALOG, 1, 25));
+        btnReturn.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+        btnYes.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         panel.add(btnReturn);
         btnReturn.setName("Return");
         panel.add(btnYes);

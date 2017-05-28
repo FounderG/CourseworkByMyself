@@ -1,0 +1,7 @@
+Ticket ID: 32222213
+Movie Name: KONG: SKULL ISLAND
+Start Time: 20:30
+Screen: 3
+Seat: D5
+Ticket Type: Student
+Student ID: 124366777

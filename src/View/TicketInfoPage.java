@@ -50,15 +50,16 @@ public class TicketInfoPage extends JFrame {
 
         this.init(a);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBounds(100, 100, 900, 600);
+        this.setBounds(500, 200, 900, 600);
         this.setVisible(true);
 
     }
 
     public void setFilm(Schedule schedule) throws Exception {
         Movie movie = XMLManger.getMovieWithID(schedule.getMovieID());
-        String lbl = "Film: " + movie.getName() + " - " + schedule.getStartTime();
+        String lbl = "Film:    " + movie.getName() + " - " + schedule.getStartTime();       
         this.lblTicket.setText(lbl);
+        lblTicket.setFont(new Font("Berlin Sans FB", Font.PLAIN, 30));
     }
 
     void init(ArrayList<String> a) {
@@ -67,23 +68,25 @@ public class TicketInfoPage extends JFrame {
         contentPane.setLayout(new BorderLayout(0, 0));
         setContentPane(contentPane);
 
-        lblTicketInformation.setFont(new Font(Font.DIALOG, 1, 30));
+        lblTicketInformation.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
         contentPane.add(lblTicketInformation, BorderLayout.NORTH);
         contentPane.add(panel, BorderLayout.CENTER);
 
         panel.setLayout(new GridLayout(3, 0, 0, 0));
-        lblTicket.setFont(new Font(Font.DIALOG, 1, 25));
+        lblTicket.setFont(new Font("Berlin Sans FB", Font.PLAIN, 30));
         panel.add(lblTicket);
         panel.add(panel_1);
 
         panel_1.setLayout(new GridLayout(0, 2, 0, 0));
-        lblTicket_1.setFont(new Font(Font.DIALOG, 1, 25));
+        lblTicket_1.setFont(new Font("Berlin Sans FB", Font.PLAIN, 30));
         panel_1.add(lblTicket_1);
-
 
         defaultTableModel = new DefaultTableModel(initS(a), Names);
         table = new JTable(defaultTableModel);
-
+        table.setFont(new Font("Berlin Sans FB", Font.PLAIN, 23));
+        table.setRowHeight(40);
+        table.getTableHeader().setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 28));
+        
         DefaultTableCellRenderer r = new DefaultTableCellRenderer();
         r.setHorizontalAlignment(JLabel.CENTER);
         table.setDefaultRenderer(Object.class, r);
@@ -91,8 +94,8 @@ public class TicketInfoPage extends JFrame {
         scrollPane.setViewportView(table);
         panel_1.add(scrollPane);
         contentPane.add(panel_2, BorderLayout.SOUTH);
-        btnReturn.setFont(new Font(Font.DIALOG, 1, 25));
-        btnYes.setFont(new Font(Font.DIALOG, 1, 25));
+        btnReturn.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
+        btnYes.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
         panel_2.add(btnReturn);
         btnReturn.setName("Return");
         panel_2.add(btnYes);

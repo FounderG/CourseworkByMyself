@@ -21,6 +21,7 @@ public class MovieDetailController implements ActionListener {
     }
 
     private void Init() {
+        this.movieDetailPage.getInfo();
         this.movieDetailPage.addActionListener(this);
     }
 

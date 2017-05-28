@@ -28,8 +28,10 @@ public class EnterTheStudentID extends JFrame {
         this.thread = Mythread;
 
         this.Title = new JLabel("Please Enter the StudentID");
+        Title.setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 40));
         this.StuIDField = new JTextField();
         this.btnYes = new JButton("Confirm");
+        btnYes.setFont(new Font("Berlin Sans FB", Font.PLAIN,25));
         this.btnYes.setName("ConfirmStuID");
         this.btnYes.addActionListener(MyTicketTypeController);
 
@@ -37,7 +39,7 @@ public class EnterTheStudentID extends JFrame {
         this.getContentPane().add(this.StuIDField, BorderLayout.CENTER);
         this.getContentPane().add(this.btnYes, BorderLayout.SOUTH);
 
-        this.setSize(400, 150);
+        this.setBounds(700, 400, 550, 200);
         this.setVisible(true);
     }
 
