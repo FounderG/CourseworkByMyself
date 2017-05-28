@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a836a3d-7f54-45db-8d88-354834bc42dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Service/TextFileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/WelcomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/CharacterParser.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/CharacterParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/BillPageController.java" afterPath="$PROJECT_DIR$/src/Controller/BillPageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/WelcomeController.java" afterPath="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/src/Resource/Schedule.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/CharacterParser.java" afterPath="$PROJECT_DIR$/src/Service/CharacterParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/TextFileManager.java" afterPath="$PROJECT_DIR$/src/Service/TextFileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/XMLManger.java" afterPath="$PROJECT_DIR$/src/Service/XMLManger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,18 +29,18 @@
       <file leaf-file-name="PurchaseList.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+            <state relative-caret-position="-767">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BillPageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/BillPageController.java">
+      <file leaf-file-name="Screen_1_Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Screen_1_Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
+            <state relative-caret-position="52">
+              <caret line="63" column="92" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,51 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22222121.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicketOut/22222121.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="31132133.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicketOut/31132133.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="31321112.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TicketOut/31321112.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BillPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1355">
-              <caret line="110" column="52" lean-forward="false" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="990">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieDetailController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
+      <file leaf-file-name="WelcomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/WelcomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+            <state relative-caret-position="480">
+              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/WelcomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/CharacterParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -108,18 +103,8 @@
       <file leaf-file-name="XMLManger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="230" column="86" lean-forward="false" selection-start-line="230" selection-start-column="57" selection-end-line="230" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketTypeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/TicketTypeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="495">
+              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -152,13 +137,11 @@
         <option value="$PROJECT_DIR$/src/Model/Schedule.java" />
         <option value="$PROJECT_DIR$/src/Model/Screen.java" />
         <option value="$PROJECT_DIR$/src/View/SchedulePage.java" />
-        <option value="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/Controller/MovieSelectController.java" />
         <option value="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
         <option value="$PROJECT_DIR$/src/View/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/Controller/MovieDetailController.java" />
         <option value="$PROJECT_DIR$/src/Model/PurchaseInfo.java" />
-        <option value="$PROJECT_DIR$/src/Test/Test.java" />
         <option value="$PROJECT_DIR$/src/Controller/ScheduleController.java" />
         <option value="$PROJECT_DIR$/src/View/EnterTheStudentID.java" />
         <option value="$PROJECT_DIR$/src/View/TypeofTicketPage.java" />
@@ -167,22 +150,24 @@
         <option value="$PROJECT_DIR$/src/Resource/Movies.xml" />
         <option value="$PROJECT_DIR$/src/Service/ScreenManager.java" />
         <option value="$PROJECT_DIR$/src/View/Screen3Page.java" />
-        <option value="$PROJECT_DIR$/src/Service/CharacterParser.java" />
         <option value="$PROJECT_DIR$/src/View/TicketInfoPage.java" />
         <option value="$PROJECT_DIR$/src/View/BillPage.java" />
         <option value="$PROJECT_DIR$/src/Controller/TicketInfoController.java" />
         <option value="$PROJECT_DIR$/src/Resource/PurchaseList" />
         <option value="$PROJECT_DIR$/src/View/GoodByePage.java" />
-        <option value="$PROJECT_DIR$/src/Service/XMLManger.java" />
         <option value="$PROJECT_DIR$/src/View/Screen1Page.java" />
         <option value="$PROJECT_DIR$/src/Resource/Schedule.xml" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_1_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_2_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_3_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/TicketTypeController.java" />
-        <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
-        <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
         <option value="$PROJECT_DIR$/src/Controller/BillPageController.java" />
+        <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
+        <option value="$PROJECT_DIR$/src/Service/CharacterParser.java" />
+        <option value="$PROJECT_DIR$/src/Service/XMLManger.java" />
+        <option value="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/src/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
       </list>
     </option>
   </component>
@@ -339,6 +324,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReportOut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -967,12 +956,12 @@
       <workItem from="1495721379395" duration="14626000" />
       <workItem from="1495803602667" duration="1640000" />
       <workItem from="1495805359359" duration="17308000" />
-      <workItem from="1495964852696" duration="4282000" />
+      <workItem from="1495964852696" duration="10450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94751000" />
+    <option name="totallyTimeSpent" value="100919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1370" height="828" extended-state="0" />
@@ -1017,7 +1006,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="107" />
+      <option name="time" value="114" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1026,14 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/MovieSelectPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1116,21 +1097,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/Schedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/WelcomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/SchedulePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1142,14 +1108,6 @@
     <entry file="file://$PROJECT_DIR$/src/Resource/0003.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Screen.java">
@@ -1215,14 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/CharacterParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1311,16 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Screen_1_Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="75" column="82" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="75" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/Screen_2_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1359,67 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/TicketTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1355">
-          <caret line="110" column="52" lean-forward="false" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="230" column="86" lean-forward="false" selection-start-line="230" selection-start-column="57" selection-end-line="230" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/BillPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicketOut/22222121.txt">
+    <entry file="file://$PROJECT_DIR$/src/TicketOut/31321112.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1435,11 +1315,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicketOut/31321112.txt">
+    <entry file="file://$PROJECT_DIR$/src/TicketOut/22222121.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BillPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1355">
+          <caret line="110" column="52" lean-forward="false" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/TicketTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/CharacterParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Screen_1_Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="63" column="92" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

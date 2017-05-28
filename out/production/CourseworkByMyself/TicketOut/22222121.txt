@@ -1,0 +1,7 @@
+Ticket ID: 22222121
+Movie Name: BEAUTY AND THE BEAST
+Start Time: 12:30
+Screen: 1
+Seat: C6
+Ticket Type: Student
+Student ID: 12345

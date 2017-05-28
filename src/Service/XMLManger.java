@@ -34,6 +34,16 @@ public class XMLManger {
         return null;
     }
 
+    public static int getMovieNum() throws Exception {
+        SAXReader reader = new SAXReader();
+        Document document = reader.read("src/Resource/Movies.xml");
+
+        Element rootElement = document.getRootElement();
+        List movieNode = rootElement.elements("Movie");
+
+        return movieNode.size();
+    }
+
     /**
      * this function can return the list of schedules of specific movie using the movie ID
      *

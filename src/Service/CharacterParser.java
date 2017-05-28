@@ -62,4 +62,16 @@ public class CharacterParser {
 
         return "";
     }
+
+    /**
+     * This method is incomplete, please make sure that the movieID will not reach the number "10"
+     *
+     * @param movieID
+     * @return
+     */
+    public static int getIndexWithMovieID(String movieID) {
+        String[] nums = movieID.split("");
+
+        return Integer.parseInt(nums[3]);
+    }
 }

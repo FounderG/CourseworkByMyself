@@ -1,5 +1,6 @@
 package Controller;
 
+import Service.TextFileManager;
 import View.MovieSelectPage;
 import View.WelcomePage;
 
@@ -28,6 +29,15 @@ public class WelcomeController implements ActionListener {
         JButton actionButton = (JButton) e.getSource();
         if (actionButton.getName().equals("Customer")) {
             new MovieSelectController(new MovieSelectPage());
+        }
+        if (actionButton.getName().equals("Administrator")) {
+            try {
+                TextFileManager.GenerateReport();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+
+            JOptionPane.showMessageDialog(new JFrame(), "Done! The report has been generated!");
         }
     }
 }
