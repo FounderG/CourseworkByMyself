@@ -4,6 +4,7 @@ import Model.PurchaseInfo;
 import Model.Schedule;
 import Model.Ticket;
 import Service.CharacterParser;
+import Service.TextFileManager;
 import Service.XMLManger;
 import View.BillPage;
 import View.GoodByePage;
@@ -60,6 +61,13 @@ public class BillPageController implements ActionListener {
                 //store the purchase info
                 try {
                     XMLManger.AddPurchaseInfo(new PurchaseInfo(this.ticketArrayList));
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+
+                //print out the ticket(s)
+                try {
+                    TextFileManager.TicketPrinter(this.ticketArrayList);
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }

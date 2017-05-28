@@ -33,4 +33,43 @@
             </Ticket>
         </TicketList>
     </PurchaseInfo>
-</PurchaseList>
+    <PurchaseInfo ID="6a6d5860-09f2-48e5-af45-0acce2624669" Time="2017-05-28T19:07:31.365">
+        <TicketList>
+            <Ticket ID="31311121">
+                <Schedule>0009</Schedule>
+                <Type>4</Type>
+                <Seat>C3</Seat>
+                <Price>13.6</Price>
+                <Reference>964228</Reference>
+            </Ticket>
+            <Ticket ID="32123331">
+                <Schedule>0009</Schedule>
+                <Type>2</Type>
+                <Seat>B5</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="32311133">
+                <Schedule>0009</Schedule>
+                <Type>1</Type>
+                <Seat>C5</Seat>
+                <Price>8.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="23131133">
+                <Schedule>0009</Schedule>
+                <Type>3</Type>
+                <Seat>C1</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="13322133">
+                <Schedule>0009</Schedule>
+                <Type>4</Type>
+                <Seat>B3</Seat>
+                <Price>13.6</Price>
+                <Reference>1234556</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+<PurchaseInfo ID="a098b229-a8e9-416a-8479-8ee2d4cffc65" Time="2017-05-28T19:48:17.673"><TicketList><Ticket ID="22222121"><Schedule>0002</Schedule><Type>4</Type><Seat>C6</Seat><Price>13.6</Price><Reference>12345</Reference></Ticket><Ticket ID="31132133"><Schedule>0002</Schedule><Type>2</Type><Seat>C4</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket><Ticket ID="31321112"><Schedule>0002</Schedule><Type>3</Type><Seat>B6</Seat><Price>12.8</Price><Reference>NONEED</Reference></Ticket></TicketList></PurchaseInfo></PurchaseList>
