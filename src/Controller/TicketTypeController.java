@@ -68,10 +68,17 @@ public class TicketTypeController implements ActionListener {
                 this.enterTheStudentID = new EnterTheStudentID((TicketTypeController) myThis, Thread.currentThread());
                 break;
             case "ConfirmStuID":
-                this.ticket.set_Reference(this.enterTheStudentID.getStuIDField());
-                this.enterTheStudentID.dispose();
+                if (this.enterTheStudentID.getStuIDField().equals("")) {
+                    JOptionPane.showMessageDialog(new JFrame(), "Please enter your student ID!");
+                } else {
+                    this.ticket.set_Reference(this.enterTheStudentID.getStuIDField());
+                    this.enterTheStudentID.dispose();
+                }
                 break;
             case "Yes":
+                this.typeofTicketPage.dispose();
+                break;
+            case "Return":
                 this.typeofTicketPage.dispose();
                 break;
         }

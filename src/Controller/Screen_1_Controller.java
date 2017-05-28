@@ -63,7 +63,17 @@ public class Screen_1_Controller implements ActionListener {
             if (this.ticketArrayList.size() == 0) {
                 JOptionPane.showMessageDialog(new JFrame(), "You haven't select any seat!");
             } else {
-                new TicketInfoController(this.ticketArrayList, this.schedule);
+                //judge the type choose
+                int judge = 1;
+                for (Iterator it = this.ticketArrayList.iterator(); it.hasNext(); ) {
+                    Ticket ticket = (Ticket) it.next();
+                    if (ticket.get_ticketType()==0){
+                        judge=0;
+                        JOptionPane.showMessageDialog(new JFrame(), "The Seat: "+CharacterParser.getRowWithNum(ticket.get_row())+String.valueOf(ticket.get_No())+"'s type hasn't been assigned!");
+                    }
+                }
+                if (judge == 1)
+                    new TicketInfoController(this.ticketArrayList, this.schedule);
             }
         }
         if (btnClicked.getName().equals("Return")) {
