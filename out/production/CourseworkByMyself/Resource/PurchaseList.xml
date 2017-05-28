@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseList>
+    <PurchaseInfo ID="b0251a37-7dc6-4745-84b2-ae313f6e6c6c" Time="2017-05-28T01:07:54.992">
+        <TicketList>
+            <Ticket ID="32323233">
+                <Schedule>0004</Schedule>
+                <Type>4</Type>
+                <Seat>B4</Seat>
+                <Price>13.6</Price>
+                <Reference>1234567</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+<PurchaseInfo ID="a4299569-e2d5-4db7-9eb1-6d6c7a457fe3" Time="2017-05-28T01:11:24.385"><TicketList><Ticket ID="13132231"><Schedule>0002</Schedule><Type>4</Type><Seat>C5</Seat><Price>13.6</Price><Reference>123456</Reference></Ticket></TicketList></PurchaseInfo></PurchaseList>

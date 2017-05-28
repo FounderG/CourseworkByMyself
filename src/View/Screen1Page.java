@@ -279,7 +279,7 @@ public class Screen1Page extends JFrame {
         if (m <= 4) {
             seatr.get(4 * (4 - n) + (4 - m)).setOpaque(true);
             seatr.get(4 * (4 - n) + (4 - m)).setBackground(Color.RED);
-            seatl.get(4 * (4 - n) + (4 - m)).setEnabled(false);
+            seatr.get(4 * (4 - n) + (4 - m)).setEnabled(false);
         }
     }
 
