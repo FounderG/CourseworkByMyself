@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a836a3d-7f54-45db-8d88-354834bc42dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/WelcomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/CharacterParser.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/CharacterParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/WelcomeController.java" afterPath="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/CharacterParser.java" afterPath="$PROJECT_DIR$/src/Service/CharacterParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/TextFileManager.java" afterPath="$PROJECT_DIR$/src/Service/TextFileManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/XMLManger.java" afterPath="$PROJECT_DIR$/src/Service/XMLManger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/src/Resource/Schedule.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Screen3Page.java" afterPath="$PROJECT_DIR$/src/View/Screen3Page.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +20,8 @@
       <file leaf-file-name="PurchaseList.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-767">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="-9">
+              <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -48,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
@@ -80,6 +71,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Schedule.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-579">
+              <caret line="482" column="16" lean-forward="false" selection-start-line="482" selection-start-column="16" selection-end-line="482" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CharacterParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/CharacterParser.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,6 +106,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
               <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen3Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/Screen3Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -149,25 +160,25 @@
         <option value="$PROJECT_DIR$/src/View/Screen2Page.java" />
         <option value="$PROJECT_DIR$/src/Resource/Movies.xml" />
         <option value="$PROJECT_DIR$/src/Service/ScreenManager.java" />
-        <option value="$PROJECT_DIR$/src/View/Screen3Page.java" />
         <option value="$PROJECT_DIR$/src/View/TicketInfoPage.java" />
         <option value="$PROJECT_DIR$/src/View/BillPage.java" />
         <option value="$PROJECT_DIR$/src/Controller/TicketInfoController.java" />
         <option value="$PROJECT_DIR$/src/Resource/PurchaseList" />
         <option value="$PROJECT_DIR$/src/View/GoodByePage.java" />
         <option value="$PROJECT_DIR$/src/View/Screen1Page.java" />
-        <option value="$PROJECT_DIR$/src/Resource/Schedule.xml" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_1_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_2_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/Screen_3_Controller.java" />
         <option value="$PROJECT_DIR$/src/Controller/TicketTypeController.java" />
         <option value="$PROJECT_DIR$/src/Controller/BillPageController.java" />
-        <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
         <option value="$PROJECT_DIR$/src/Service/CharacterParser.java" />
         <option value="$PROJECT_DIR$/src/Service/XMLManger.java" />
         <option value="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/Test/Test.java" />
         <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
+        <option value="$PROJECT_DIR$/src/View/Screen3Page.java" />
+        <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
+        <option value="$PROJECT_DIR$/src/Resource/Schedule.xml" />
       </list>
     </option>
   </component>
@@ -956,16 +967,15 @@
       <workItem from="1495721379395" duration="14626000" />
       <workItem from="1495803602667" duration="1640000" />
       <workItem from="1495805359359" duration="17308000" />
-      <workItem from="1495964852696" duration="10450000" />
+      <workItem from="1495964852696" duration="11157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100919000" />
+    <option name="totallyTimeSpent" value="101626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1370" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -982,14 +992,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18467154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18467154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29331514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29331514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1245,22 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Screen3Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="525" column="877" lean-forward="false" selection-start-line="525" selection-start-column="877" selection-end-line="525" selection-end-column="877" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/Screen_2_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1407,14 +1401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-767">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1430,6 +1416,30 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Screen3Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="482" column="16" lean-forward="false" selection-start-line="482" selection-start-column="16" selection-end-line="482" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -97,4 +97,36 @@
             </Ticket>
         </TicketList>
     </PurchaseInfo>
+    <PurchaseInfo ID="8d51f352-2b39-4432-9c53-0a41456da803" Time="2017-05-28T22:28:14.409">
+        <TicketList>
+            <Ticket ID="21213321">
+                <Schedule>0011</Schedule>
+                <Type>3</Type>
+                <Seat>A6</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="23121311">
+                <Schedule>0011</Schedule>
+                <Type>3</Type>
+                <Seat>A3</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="11213113">
+                <Schedule>0011</Schedule>
+                <Type>2</Type>
+                <Seat>A5</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="22121112">
+                <Schedule>0011</Schedule>
+                <Type>4</Type>
+                <Seat>A4</Seat>
+                <Price>13.6</Price>
+                <Reference>123456</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
 </PurchaseList>

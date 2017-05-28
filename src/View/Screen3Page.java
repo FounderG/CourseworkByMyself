@@ -93,7 +93,7 @@ public class Screen3Page extends JFrame {
 
     void init() {
         //states initialization
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 8; j++) {
                 state[i][j] = 0;
             }
