@@ -29,7 +29,7 @@ public class TextFileManager {
             Schedule schedule = XMLManger.getScheduleWithID(ticket.get_scheduleID());
             Movie movie = XMLManger.getMovieWithID(schedule.getMovieID());
 
-            FileWriter writer = new FileWriter("src/TicketOut/" + ticket.get_ID() + ".txt");
+            FileWriter writer = new FileWriter("TicketOut/" + ticket.get_ID() + ".txt");
 
             writer.write("Ticket ID: " + ticket.get_ID() + "\n");
             writer.write("Movie Name: " + movie.getName() + "\n");
@@ -47,7 +47,7 @@ public class TextFileManager {
 
     public static void GenerateReport() throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/PurchaseList.xml");
+        Document document = reader.read("Resource/PurchaseList.xml");
 
         Element rootNode = document.getRootElement();
         List purchaseInfoList = rootNode.elements();
@@ -85,7 +85,7 @@ public class TextFileManager {
             }
         }
 
-        FileWriter writer = new FileWriter("src/ReportOut/Report.txt");
+        FileWriter writer = new FileWriter("ReportOut/Report.txt");
 
         writer.write("Total: " + String.valueOf(totalCount) + " YUAN\n\n");
 

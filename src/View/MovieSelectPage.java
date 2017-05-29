@@ -23,11 +23,11 @@ public class MovieSelectPage extends JFrame {
         JPanel p = new JPanel();
         p.setLayout(null);
 
-        ImageIcon img1 = new ImageIcon("src/Resource/0001.png");
-        ImageIcon img2 = new ImageIcon("src/Resource/0002.png");
-        ImageIcon img3 = new ImageIcon("src/Resource/0003.png");
-        ImageIcon img4 = new ImageIcon("src/Resource/0004.png");
-        ImageIcon img5 = new ImageIcon("src/Resource/0005.png");
+        ImageIcon img1 = new ImageIcon("Resource/0001.png");
+        ImageIcon img2 = new ImageIcon("Resource/0002.png");
+        ImageIcon img3 = new ImageIcon("Resource/0003.png");
+        ImageIcon img4 = new ImageIcon("Resource/0004.png");
+        ImageIcon img5 = new ImageIcon("Resource/0005.png");
 
         JLabel l = new JLabel("Movie Today",JLabel.CENTER);
         this.i1 = new JButton(img1);

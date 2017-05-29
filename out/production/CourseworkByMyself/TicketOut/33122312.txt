@@ -1,6 +1,0 @@
-Ticket ID: 33122312
-Movie Name: LOGAN
-Start Time: 18:00
-Screen: 3
-Seat: E5
-Ticket Type: Adult

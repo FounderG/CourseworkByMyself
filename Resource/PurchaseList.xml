@@ -147,4 +147,62 @@
             </Ticket>
         </TicketList>
     </PurchaseInfo>
-<PurchaseInfo ID="561a8d5d-b77f-417a-9839-b822b7ecadc3" Time="2017-05-29T02:30:31.053"><TicketList><Ticket ID="32323232"><Schedule>0006</Schedule><Type>2</Type><Seat>D7</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket><Ticket ID="31221212"><Schedule>0006</Schedule><Type>2</Type><Seat>D6</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket></TicketList></PurchaseInfo><PurchaseInfo ID="d9d1abf5-fe54-4d9f-8a4f-efd60929a78d" Time="2017-05-29T02:31:50.721"><TicketList><Ticket ID="33122312"><Schedule>0014</Schedule><Type>2</Type><Seat>E5</Seat><Price>16.0</Price><Reference>NONEED</Reference></Ticket></TicketList></PurchaseInfo><PurchaseInfo ID="dc61f9cb-0a77-466d-aa47-33bebf78847b" Time="2017-05-29T12:30:55.404"><TicketList><Ticket ID="32312233"><Schedule>0002</Schedule><Type>4</Type><Seat>B5</Seat><Price>13.6</Price><Reference>12345</Reference></Ticket></TicketList></PurchaseInfo></PurchaseList>
+    <PurchaseInfo ID="561a8d5d-b77f-417a-9839-b822b7ecadc3" Time="2017-05-29T02:30:31.053">
+        <TicketList>
+            <Ticket ID="32323232">
+                <Schedule>0006</Schedule>
+                <Type>2</Type>
+                <Seat>D7</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="31221212">
+                <Schedule>0006</Schedule>
+                <Type>2</Type>
+                <Seat>D6</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+    <PurchaseInfo ID="d9d1abf5-fe54-4d9f-8a4f-efd60929a78d" Time="2017-05-29T02:31:50.721">
+        <TicketList>
+            <Ticket ID="33122312">
+                <Schedule>0014</Schedule>
+                <Type>2</Type>
+                <Seat>E5</Seat>
+                <Price>16.0</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+    <PurchaseInfo ID="dc61f9cb-0a77-466d-aa47-33bebf78847b" Time="2017-05-29T12:30:55.404">
+        <TicketList>
+            <Ticket ID="32312233">
+                <Schedule>0002</Schedule>
+                <Type>4</Type>
+                <Seat>B5</Seat>
+                <Price>13.6</Price>
+                <Reference>12345</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+    <PurchaseInfo ID="1b73bf13-6d9d-4473-933e-236c68216e79" Time="2017-05-29T17:20:16.361">
+        <TicketList>
+            <Ticket ID="11222122">
+                <Schedule>0004</Schedule>
+                <Type>3</Type>
+                <Seat>C7</Seat>
+                <Price>12.8</Price>
+                <Reference>NONEED</Reference>
+            </Ticket>
+            <Ticket ID="22223112">
+                <Schedule>0004</Schedule>
+                <Type>4</Type>
+                <Seat>B6</Seat>
+                <Price>13.6</Price>
+                <Reference>123456</Reference>
+            </Ticket>
+        </TicketList>
+    </PurchaseInfo>
+</PurchaseList>

@@ -4,26 +4,26 @@
     <Movie ID="0001">
         <Name>KONG: SKULL ISLAND</Name>
         <Length>135</Length>
-        <Poster>src/Resource/0001.png</Poster>
+        <Poster>Resource/0001.png</Poster>
     </Movie>
     <Movie ID="0002">
         <Name>LOGAN</Name>
         <Length>135</Length>
-        <Poster>src/Resource/0002.png</Poster>
+        <Poster>Resource/0002.png</Poster>
     </Movie>
     <Movie ID="0003">
         <Name>BEAUTY AND THE BEAST</Name>
         <Length>130</Length>
-        <Poster>src/Resource/0003.png</Poster>
+        <Poster>Resource/0003.png</Poster>
     </Movie>
     <Movie ID="0004">
         <Name>MOONLIGHT</Name>
         <Length>111</Length>
-        <Poster>src/Resource/0004.png</Poster>
+        <Poster>Resource/0004.png</Poster>
     </Movie>
     <Movie ID="0005">
         <Name>LA LA LAND</Name>
         <Length>128</Length>
-        <Poster>src/Resource/0005.png</Poster>
+        <Poster>Resource/0005.png</Poster>
     </Movie>
 </Movies>

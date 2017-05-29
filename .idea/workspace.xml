@@ -7,16 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a836a3d-7f54-45db-8d88-354834bc42dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieDetailPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieDetailPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen2Page.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen2Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TicketInfoPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TicketInfoPage.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/ReportOut/Report.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/0001.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/0002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/0003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/0004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/0005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Movies.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/11123322.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/11213113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/21213321.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/22121112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/22222121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/23121311.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/31132133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/31221212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/31321112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/32222213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/32323232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/TicketOut/33122312.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ReportOut/Report.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/11123322.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/11213113.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/21213321.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/22121112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/22222121.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/23121311.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/31132133.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/31221212.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/31321112.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/32222213.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/32312233.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/32323232.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TicketOut/33122312.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/0001.png" afterPath="$PROJECT_DIR$/Resource/0001.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/0002.png" afterPath="$PROJECT_DIR$/Resource/0002.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/0003.png" afterPath="$PROJECT_DIR$/Resource/0003.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/0004.png" afterPath="$PROJECT_DIR$/Resource/0004.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/0005.png" afterPath="$PROJECT_DIR$/Resource/0005.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/Movies.xml" afterPath="$PROJECT_DIR$/Resource/Movies.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/Resource/PurchaseList.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/Resource/Schedule.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/TextFileManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Service/XMLManger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieSelectPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieSelectPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/ReportOut/Report.txt" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/ReportOut/Report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/src/Resource/Schedule.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MovieDetailPage.java" afterPath="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Screen2Page.java" afterPath="$PROJECT_DIR$/src/View/Screen2Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/TicketInfoPage.java" afterPath="$PROJECT_DIR$/src/View/TicketInfoPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/TextFileManager.java" afterPath="$PROJECT_DIR$/src/Service/TextFileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/XMLManger.java" afterPath="$PROJECT_DIR$/src/Service/XMLManger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MovieSelectPage.java" afterPath="$PROJECT_DIR$/src/View/MovieSelectPage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,22 +73,71 @@
       <file leaf-file-name="MovieDetailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="240">
               <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieDetailPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovieDetailPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="79" column="66" lean-forward="false" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+            <state relative-caret-position="225">
+              <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movies.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resource/Movies.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLManger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3450">
+              <caret line="240" column="57" lean-forward="true" selection-start-line="240" selection-start-column="57" selection-end-line="240" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieSelectPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/MovieSelectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
               <folding>
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2380#2381#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PurchaseList.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resource/PurchaseList.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2729">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +173,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/View/filmToday.java" />
-        <option value="$PROJECT_DIR$/src/View/MovieSelectPage.java" />
         <option value="$PROJECT_DIR$/src/View/film1.java" />
         <option value="$PROJECT_DIR$/src/View/MovieDetail.java" />
         <option value="$PROJECT_DIR$/src/Model/Schedule.java" />
@@ -111,16 +200,19 @@
         <option value="$PROJECT_DIR$/src/Controller/TicketTypeController.java" />
         <option value="$PROJECT_DIR$/src/Controller/BillPageController.java" />
         <option value="$PROJECT_DIR$/src/Service/CharacterParser.java" />
-        <option value="$PROJECT_DIR$/src/Service/XMLManger.java" />
         <option value="$PROJECT_DIR$/src/Controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/Test/Test.java" />
-        <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
         <option value="$PROJECT_DIR$/src/View/Screen3Page.java" />
         <option value="$PROJECT_DIR$/src/Controller/MovieDetailController.java" />
         <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
         <option value="$PROJECT_DIR$/src/ReportOut/Report.txt" />
         <option value="$PROJECT_DIR$/src/Resource/Schedule.xml" />
         <option value="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
+        <option value="$PROJECT_DIR$/src/Service/XMLManger.java" />
+        <option value="$PROJECT_DIR$/Resource/PurchaseList.xml" />
+        <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
+        <option value="$PROJECT_DIR$/src/View/MovieSelectPage.java" />
+        <option value="$PROJECT_DIR$/Resource/Movies.xml" />
       </list>
     </option>
   </component>
@@ -155,7 +247,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,163 +269,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicketOut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReportOut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,15 +285,15 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/View" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resource" />
       <recent name="$PROJECT_DIR$/src/View" />
       <recent name="$PROJECT_DIR$/src/Test" />
       <recent name="$PROJECT_DIR$/src/Resource" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/src/Service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/View" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -906,16 +844,16 @@
       <workItem from="1495803602667" duration="1640000" />
       <workItem from="1495805359359" duration="17308000" />
       <workItem from="1495964852696" duration="13169000" />
-      <workItem from="1496030626060" duration="687000" />
+      <workItem from="1496030626060" duration="907000" />
+      <workItem from="1496049409351" duration="947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104325000" />
+    <option name="totallyTimeSpent" value="105492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1370" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -932,7 +870,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18467154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18467154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -965,35 +903,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-            <element signature="e#2228#2229#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/WelcomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1233,14 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/WelcomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1275,26 +1176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MovieSelectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1307,21 +1192,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicketOut/11123322.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,19 +1232,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="240">
           <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/PurchaseList.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2729">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/XMLManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="240" column="57" lean-forward="true" selection-start-line="240" selection-start-column="57" selection-end-line="240" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/MovieSelectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="79" column="66" lean-forward="false" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+        <state relative-caret-position="225">
+          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/Movies.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportOut/Report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
           <folding>
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

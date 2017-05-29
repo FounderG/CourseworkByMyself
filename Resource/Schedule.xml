@@ -79,45 +79,7 @@
         </Screen>
         <Price>16</Price>
     </Schedule>
-    <Schedule ID="0004">
-        <Movie>0001</Movie>
-        <Time>18:30</Time>
-        <Screen ID="1">
-            <Seat Row="1" No="1">0</Seat>
-            <Seat Row="1" No="2">0</Seat>
-            <Seat Row="1" No="3">0</Seat>
-            <Seat Row="1" No="4">0</Seat>
-            <Seat Row="1" No="5">0</Seat>
-            <Seat Row="1" No="6">0</Seat>
-            <Seat Row="1" No="7">0</Seat>
-            <Seat Row="1" No="8">0</Seat>
-            <Seat Row="2" No="1">0</Seat>
-            <Seat Row="2" No="2">0</Seat>
-            <Seat Row="2" No="3">0</Seat>
-            <Seat Row="2" No="4">0</Seat>
-            <Seat Row="2" No="5">0</Seat>
-            <Seat Row="2" No="6">0</Seat>
-            <Seat Row="2" No="7">0</Seat>
-            <Seat Row="2" No="8">0</Seat>
-            <Seat Row="3" No="1">0</Seat>
-            <Seat Row="3" No="2">0</Seat>
-            <Seat Row="3" No="3">0</Seat>
-            <Seat Row="3" No="4">0</Seat>
-            <Seat Row="3" No="5">0</Seat>
-            <Seat Row="3" No="6">0</Seat>
-            <Seat Row="3" No="7">0</Seat>
-            <Seat Row="3" No="8">0</Seat>
-            <Seat Row="4" No="1">0</Seat>
-            <Seat Row="4" No="2">0</Seat>
-            <Seat Row="4" No="3">0</Seat>
-            <Seat Row="4" No="4">0</Seat>
-            <Seat Row="4" No="5">0</Seat>
-            <Seat Row="4" No="6">0</Seat>
-            <Seat Row="4" No="7">0</Seat>
-            <Seat Row="4" No="8">0</Seat>
-        </Screen>
-        <Price>16</Price>
-    </Schedule>
+    
     <Schedule ID="0005">
         <Movie>0001</Movie>
         <Time>21:00</Time>
@@ -451,4 +413,4 @@
         </Screen>
         <Price>16.0</Price>
     </Schedule>
-<Schedule ID="0006"><Movie>0005</Movie><Time>10:30</Time><Screen ID="2"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">0</Seat><Seat Row="2" No="6">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">0</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">1</Seat><Seat Row="4" No="7">1</Seat><Seat Row="4" No="8">0</Seat></Screen><Price>16.0</Price></Schedule><Schedule ID="0014"><Movie>0002</Movie><Time>18:00</Time><Screen ID="3"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">0</Seat><Seat Row="2" No="6">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">0</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">0</Seat><Seat Row="5" No="1">0</Seat><Seat Row="5" No="2">0</Seat><Seat Row="5" No="3">0</Seat><Seat Row="5" No="4">0</Seat><Seat Row="5" No="5">1</Seat><Seat Row="5" No="6">0</Seat><Seat Row="5" No="7">0</Seat><Seat Row="5" No="8">0</Seat></Screen><Price>16.0</Price></Schedule><Schedule ID="0002"><Movie>0003</Movie><Time>12:30</Time><Screen ID="1"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="1" No="7">0</Seat><Seat Row="1" No="8">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">1</Seat><Seat Row="2" No="6">1</Seat><Seat Row="2" No="7">0</Seat><Seat Row="2" No="8">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">1</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">1</Seat><Seat Row="3" No="7">0</Seat><Seat Row="3" No="8">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">0</Seat><Seat Row="4" No="7">0</Seat><Seat Row="4" No="8">0</Seat></Screen><Price>16.0</Price></Schedule></Schedules>
+<Schedule ID="0006"><Movie>0005</Movie><Time>10:30</Time><Screen ID="2"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">0</Seat><Seat Row="2" No="6">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">0</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">1</Seat><Seat Row="4" No="7">1</Seat><Seat Row="4" No="8">0</Seat></Screen><Price>16.0</Price></Schedule><Schedule ID="0014"><Movie>0002</Movie><Time>18:00</Time><Screen ID="3"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">0</Seat><Seat Row="2" No="6">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">0</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">0</Seat><Seat Row="5" No="1">0</Seat><Seat Row="5" No="2">0</Seat><Seat Row="5" No="3">0</Seat><Seat Row="5" No="4">0</Seat><Seat Row="5" No="5">1</Seat><Seat Row="5" No="6">0</Seat><Seat Row="5" No="7">0</Seat><Seat Row="5" No="8">0</Seat></Screen><Price>16.0</Price></Schedule><Schedule ID="0002"><Movie>0003</Movie><Time>12:30</Time><Screen ID="1"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="1" No="7">0</Seat><Seat Row="1" No="8">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">1</Seat><Seat Row="2" No="6">1</Seat><Seat Row="2" No="7">0</Seat><Seat Row="2" No="8">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">1</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">1</Seat><Seat Row="3" No="7">0</Seat><Seat Row="3" No="8">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">0</Seat><Seat Row="4" No="7">0</Seat><Seat Row="4" No="8">0</Seat></Screen><Price>16.0</Price></Schedule><Schedule ID="0004"><Movie>0001</Movie><Time>18:30</Time><Screen ID="1"><Seat Row="1" No="1">0</Seat><Seat Row="1" No="2">0</Seat><Seat Row="1" No="3">0</Seat><Seat Row="1" No="4">0</Seat><Seat Row="1" No="5">0</Seat><Seat Row="1" No="6">0</Seat><Seat Row="1" No="7">0</Seat><Seat Row="1" No="8">0</Seat><Seat Row="2" No="1">0</Seat><Seat Row="2" No="2">0</Seat><Seat Row="2" No="3">0</Seat><Seat Row="2" No="4">0</Seat><Seat Row="2" No="5">0</Seat><Seat Row="2" No="6">1</Seat><Seat Row="2" No="7">0</Seat><Seat Row="2" No="8">0</Seat><Seat Row="3" No="1">0</Seat><Seat Row="3" No="2">0</Seat><Seat Row="3" No="3">0</Seat><Seat Row="3" No="4">0</Seat><Seat Row="3" No="5">0</Seat><Seat Row="3" No="6">0</Seat><Seat Row="3" No="7">1</Seat><Seat Row="3" No="8">0</Seat><Seat Row="4" No="1">0</Seat><Seat Row="4" No="2">0</Seat><Seat Row="4" No="3">0</Seat><Seat Row="4" No="4">0</Seat><Seat Row="4" No="5">0</Seat><Seat Row="4" No="6">0</Seat><Seat Row="4" No="7">0</Seat><Seat Row="4" No="8">0</Seat></Screen><Price>16.0</Price></Schedule></Schedules>

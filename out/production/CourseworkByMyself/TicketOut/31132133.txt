@@ -1,6 +1,0 @@
-Ticket ID: 31132133
-Movie Name: BEAUTY AND THE BEAST
-Start Time: 12:30
-Screen: 1
-Seat: C4
-Ticket Type: Adult

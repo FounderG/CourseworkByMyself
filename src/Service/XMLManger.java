@@ -18,7 +18,7 @@ import java.util.List;
 public class XMLManger {
     public static Movie getMovieWithID(String id) throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/Movies.xml");
+        Document document = reader.read("Resource/Movies.xml");
 
         Element rootElement = document.getRootElement();
         List movieNode = rootElement.elements("Movie");
@@ -36,7 +36,7 @@ public class XMLManger {
 
     public static int getMovieNum() throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/Movies.xml");
+        Document document = reader.read("Resource/Movies.xml");
 
         Element rootElement = document.getRootElement();
         List movieNode = rootElement.elements("Movie");
@@ -53,7 +53,7 @@ public class XMLManger {
      */
     public static ArrayList<Schedule> getScheduleListWithID(String movieID) throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/Schedule.xml");
+        Document document = reader.read("Resource/Schedule.xml");
 
         Element rootElement = document.getRootElement();
         List scheduleNodes = rootElement.elements("Schedule");
@@ -102,7 +102,7 @@ public class XMLManger {
 
     public static void updateSchedule(Schedule schedule) throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/Schedule.xml");
+        Document document = reader.read("Resource/Schedule.xml");
 
         //first, find and delete the specific schedule that is waiting for the update
         Element root = document.getRootElement();
@@ -157,14 +157,14 @@ public class XMLManger {
         updatedPrice.setText(String.valueOf(schedule.getOriginalPrice()));
 
         //save the change
-        XMLWriter writer = new XMLWriter(new FileWriter("src/Resource/Schedule.xml"));
+        XMLWriter writer = new XMLWriter(new FileWriter("Resource/Schedule.xml"));
         writer.write(document);
         writer.close();
     }
 
     public static Schedule getScheduleWithID(String scheduleID) throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/Schedule.xml");
+        Document document = reader.read("Resource/Schedule.xml");
 
         Element root = document.getRootElement();
         List schedulesRaw = root.elements();
@@ -206,7 +206,7 @@ public class XMLManger {
 
     public static void AddPurchaseInfo(PurchaseInfo purchaseInfo) throws Exception {
         SAXReader reader = new SAXReader();
-        Document document = reader.read("src/Resource/PurchaseList.xml");
+        Document document = reader.read("Resource/PurchaseList.xml");
 
         Element root = document.getRootElement();
 
@@ -238,7 +238,7 @@ public class XMLManger {
             newReference.setText(ticket.get_Reference());
         }
 
-        XMLWriter writer = new XMLWriter(new FileWriter("src/Resource/PurchaseList.xml"));
+        XMLWriter writer = new XMLWriter(new FileWriter("Resource/PurchaseList.xml"));
         writer.write(document);
         writer.close();
     }
