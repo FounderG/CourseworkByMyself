@@ -16,6 +16,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/src/Resource/Schedule.xml" />
         </element>
       </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/Resource" />
     </root>
   </artifact>
 </component>
