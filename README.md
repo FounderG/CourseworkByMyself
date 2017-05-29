@@ -1,2 +1,4 @@
-# CourseworkByMyself
-Coursework for Software Engineering
+#Coursework - A System for Cinema to Sell and Manage Movies-related Transactions 
+
+
+
