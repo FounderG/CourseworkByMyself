@@ -7,40 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a836a3d-7f54-45db-8d88-354834bc42dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CourseworkByMyself_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/MovieDetailController.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Controller/MovieDetailController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/BillPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/BillPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/EnterTheStudentID.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/EnterTheStudentID.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/GoodByePage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/GoodByePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieDetailPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieDetailPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieSelectPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/MovieSelectPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/SchedulePage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/SchedulePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen1Page.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen1Page.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen2Page.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen2Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen3Page.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/Screen3Page.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TicketInfoPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TicketInfoPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TypeofTicketPage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/TypeofTicketPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/WelcomePage.class" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/View/WelcomePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/PurchaseList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/Resource/Schedule.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/MovieDetailController.java" afterPath="$PROJECT_DIR$/src/Controller/MovieDetailController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReportOut/Report.txt" afterPath="$PROJECT_DIR$/src/ReportOut/Report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkByMyself/ReportOut/Report.txt" afterPath="$PROJECT_DIR$/out/production/CourseworkByMyself/ReportOut/Report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" afterPath="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resource/Schedule.xml" afterPath="$PROJECT_DIR$/src/Resource/Schedule.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/BillPage.java" afterPath="$PROJECT_DIR$/src/View/BillPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/EnterTheStudentID.java" afterPath="$PROJECT_DIR$/src/View/EnterTheStudentID.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/GoodByePage.java" afterPath="$PROJECT_DIR$/src/View/GoodByePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MovieDetailPage.java" afterPath="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MovieSelectPage.java" afterPath="$PROJECT_DIR$/src/View/MovieSelectPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/SchedulePage.java" afterPath="$PROJECT_DIR$/src/View/SchedulePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Screen1Page.java" afterPath="$PROJECT_DIR$/src/View/Screen1Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Screen2Page.java" afterPath="$PROJECT_DIR$/src/View/Screen2Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/Screen3Page.java" afterPath="$PROJECT_DIR$/src/View/Screen3Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/TicketInfoPage.java" afterPath="$PROJECT_DIR$/src/View/TicketInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/TypeofTicketPage.java" afterPath="$PROJECT_DIR$/src/View/TypeofTicketPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/WelcomePage.java" afterPath="$PROJECT_DIR$/src/View/WelcomePage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,54 +29,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PurchaseList.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFileManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Schedule.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Report.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MovieDetailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="146">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieDetailPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="79" column="66" lean-forward="false" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+              <folding>
+                <element signature="e#2345#2346#0" expanded="true" />
+                <element signature="e#2380#2381#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,47 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieDetailPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="71" column="66" lean-forward="false" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11123322.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicketOut/11123322.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="32222213.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicketOut/32222213.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -210,10 +117,10 @@
         <option value="$PROJECT_DIR$/src/Service/TextFileManager.java" />
         <option value="$PROJECT_DIR$/src/View/Screen3Page.java" />
         <option value="$PROJECT_DIR$/src/Controller/MovieDetailController.java" />
-        <option value="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
         <option value="$PROJECT_DIR$/src/Resource/PurchaseList.xml" />
         <option value="$PROJECT_DIR$/src/ReportOut/Report.txt" />
         <option value="$PROJECT_DIR$/src/Resource/Schedule.xml" />
+        <option value="$PROJECT_DIR$/src/View/MovieDetailPage.java" />
       </list>
     </option>
   </component>
@@ -247,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,10 +263,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -408,20 +313,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseworkByMyself" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -443,8 +334,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -458,15 +347,15 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/View" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/View" />
       <recent name="$PROJECT_DIR$/src/Test" />
       <recent name="$PROJECT_DIR$/src/Resource" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/Service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/View" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1017,11 +906,12 @@
       <workItem from="1495803602667" duration="1640000" />
       <workItem from="1495805359359" duration="17308000" />
       <workItem from="1495964852696" duration="13169000" />
+      <workItem from="1496030626060" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103638000" />
+    <option name="totallyTimeSpent" value="104325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1370" height="828" extended-state="0" />
@@ -1044,18 +934,18 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18467154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29331514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29331514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1195,14 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/TicketInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resource/Movies.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1308,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,24 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/Screen3Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1422,27 +1283,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
+    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
+    <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
+    <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="71" column="66" lean-forward="false" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+        <state relative-caret-position="390">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/TextFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,27 +1333,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/PurchaseList.xml">
+    <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/Schedule.xml">
+    <entry file="file://$PROJECT_DIR$/src/View/TicketInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReportOut/Report.txt">
+    <entry file="file://$PROJECT_DIR$/src/View/BillPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/MovieDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/MovieDetailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="79" column="66" lean-forward="false" selection-start-line="79" selection-start-column="66" selection-end-line="79" selection-end-column="66" />
+          <folding>
+            <element signature="e#2345#2346#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

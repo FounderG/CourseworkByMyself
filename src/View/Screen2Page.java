@@ -230,60 +230,58 @@ public class Screen2Page extends JFrame {
  */
     public void select(int n, int m) {
 
-        if (state[4-n][8 - m] == 0) {
-
+        if (state[4 - n][8 - m] == 0) {
+            System.out.println("3");
             if (n == 4) {
-                if (m >= 5) {
+                if (m >= 4) {
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setOpaque(true);
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setBackground(Color.GREEN);//change the color of selected seat to green
-                    state[4-n][8 - m] = 1;
+                    state[4 - n][8 - m] = 1;
                 }
-                if (m <= 4) {
+                if (m <= 3) {
                     seatr.get(4 * (4 - n) + (4 - m)).setOpaque(true);
                     seatr.get(4 * (4 - n) + (4 - m)).setBackground(Color.GREEN);
-                    state[4-n][8 - m] = 1;
+                    state[4 - n][8 - m] = 1;
                 }
             }
-        }
-        else {
-
+        } else {
+            System.out.println("1");
             if (n == 4) {
-                if (m >= 5) {
+                if (m >= 4) {
                     seatl.get(4 * (4 - n) + (4 - (m - 4))).setBackground(null);
-                    state[4-n][8 - m] = 0;
+                    state[4 - n][8 - m] = 0;
                 }
-                if (m <= 4) {
+                if (m <= 3) {
                     seatr.get(4 * (4 - n) + (4 - m)).setBackground(null);
-                    state[4-n][8 - m] = 0;
+                    state[4 - n][8 - m] = 0;
                 }
             }
         }
 
-        if (state[4-n][7 - m] == 0){
-
+        if (state[4 - n][7 - m] == 0) {
+            System.out.println("4");
             if (n <= 3) {
                 if (m >= 4) {
                     seatl.get(4 * (4 - n) + (7 - m)).setOpaque(true);
                     seatl.get(4 * (4 - n) + (7 - m)).setBackground(Color.GREEN);//change the color of selected seat to green
-                    state[4-n][7 - m] = 1;
+                    state[4 - n][7 - m] = 1;
                 }
                 if (m <= 3) {
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setOpaque(true);
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setBackground(Color.GREEN);
-                    state[4-n][7 - m] = 1;
+                    state[4 - n][7 - m] = 1;
                 }
             }
-        }
-        else{
-
+        } else {
+            System.out.println("2");
             if (n <= 3) {
                 if (m >= 4) {
                     seatl.get(4 * (4 - n) + (7 - m)).setBackground(null);
-                    state[4-n][7 - m] = 0;
+                    state[4 - n][7 - m] = 0;
                 }
                 if (m <= 3) {
                     seatr.get(4 * (4 - n) + (8 - 1 - 4 - m)).setBackground(null);
-                    state[4-n][7 - m] = 0;
+                    state[4 - n][7 - m] = 0;
                 }
             }
         }

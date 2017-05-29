@@ -77,8 +77,9 @@ public class TicketInfoPage extends JFrame {
         panel.add(lblTicket);
         panel.add(panel_1);
 
-        panel_1.setLayout(new GridLayout(0, 2, 0, 0));
+        panel_1.setLayout(null);
         lblTicket_1.setFont(new Font("Berlin Sans FB", Font.PLAIN, 30));
+        lblTicket_1.setBounds(0,0,100,100);
         panel_1.add(lblTicket_1);
 
         defaultTableModel = new DefaultTableModel(initS(a), Names);
@@ -86,12 +87,18 @@ public class TicketInfoPage extends JFrame {
         table.setFont(new Font("Berlin Sans FB", Font.PLAIN, 23));
         table.setRowHeight(40);
         table.getTableHeader().setFont(new Font("Berlin Sans FB Demi", Font.BOLD, 28));
-        
+
         DefaultTableCellRenderer r = new DefaultTableCellRenderer();
         r.setHorizontalAlignment(JLabel.CENTER);
         table.setDefaultRenderer(Object.class, r);
+        table.setBounds(0,20,600,400);
 
         scrollPane.setViewportView(table);
+        scrollPane.setLocation(200,0);
+        scrollPane.setSize(600,300);
+        //scrollPane.setBounds(200,20,600,500);
+        //scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+    
         panel_1.add(scrollPane);
         contentPane.add(panel_2, BorderLayout.SOUTH);
         btnReturn.setFont(new Font("Berlin Sans FB", Font.PLAIN, 25));
