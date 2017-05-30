@@ -13,11 +13,11 @@ Please follow the steps below to configure and start the application!
 3. Compile the application using the command below(**You need to make sure that your computer has already had JAVA!**)
 ```
 mkdir bin
-javac -d ./bin ./src/Controller/*.java ./src/Model/*.java ./src/Service/*.java ./src/Test/*.java ./src/View/*.java -cp ./lib/dom4j-1.6.1.jar
+javac -d ./bin ./src/Controller/*.java ./src/Model/*.java ./src/Service/*.java ./src/AppEntrance/*.java ./src/View/*.java -cp ./lib/dom4j-1.6.1.jar
 ```
 4. Then launch the application using the command below:
 ```
-java -cp bin/:lib/dom4j-1.6.1.jar Test.Test
+java -cp bin/:lib/dom4j-1.6.1.jar AppEntrance.App
 ```
 5. **Then you can follow the user-manual to enjoy your experience**
 # Thank you for your support, contact us:

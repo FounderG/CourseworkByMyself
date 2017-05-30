@@ -16,6 +16,7 @@ import java.util.List;
  * Created by gaoyiming on 2017/5/7.
  */
 public class XMLManger {
+
     /**
      * method that use to get a sepecific movie using movie ID
      *
