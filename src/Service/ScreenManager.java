@@ -10,6 +10,11 @@ import Model.Schedule;
  * this class is use to manage
  */
 public class ScreenManager {
+    /**
+     * method that use to initial a screen
+     *
+     * @param schedule
+     */
     public static void InitScreen(Schedule schedule) {
         int ScreenID = schedule.getScreen().get_screenID();
         if (ScreenID == 1) {

@@ -13,6 +13,11 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 
+/**
+ * The class that represent the screen2
+ *
+ * @author gaoyiming
+ */
 public class Screen2Page extends JFrame {
 
     ArrayList<JButton> seatl = new ArrayList<JButton>();
@@ -224,10 +229,10 @@ public class Screen2Page extends JFrame {
         btnYes.setName("Yes");
     }
 
-    /*
-@param n:row of the seat user choose
-@param m:number of the seat user choose
- */
+    /**
+     * @param n:row    of the seat user choose
+     * @param m:number of the seat user choose
+     */
     public void select(int n, int m) {
 
         if (state[4 - n][8 - m] == 0) {
@@ -286,9 +291,13 @@ public class Screen2Page extends JFrame {
             }
         }
     }
-    /*
-    function: when we open the layout of screen, if yhe state of seat is 1
-              Then it shows that this seat has been occupied and its color turned to red.
+
+    /**
+     * function: when we open the layout of screen, if yhe state of seat is 1
+     * Then it shows that this seat has been occupied and its color turned to red.
+     *
+     * @param m the no of a row
+     * @param n the row number
      */
 
     public void occupy(int n, int m) {
@@ -320,7 +329,11 @@ public class Screen2Page extends JFrame {
         }
     }
 
-
+    /**
+     * Use to add actionlistener to the seats
+     *
+     * @param actionListener
+     */
     public void setActionListener(ActionListener actionListener) {
         for (Iterator it = this.seatl.iterator(); it.hasNext(); ) {
             ((JButton) it.next()).addActionListener(actionListener);

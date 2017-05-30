@@ -10,6 +10,9 @@ import java.util.Iterator;
 
 /**
  * Created by gaoyiming on 2017/5/18.
+ * use to represent the Schedule choose window
+ *
+ * @author gaoyiming
  */
 public class SchedulePage extends JFrame {
     //seperate into two panel, one is for the top label, one is for the schedule list
@@ -34,7 +37,7 @@ public class SchedulePage extends JFrame {
 
         this.schedulePanel = new JPanel();
         this.buttonList = new ArrayList<JButton>();
-        this.schedulePanel.setLayout(new FlowLayout(FlowLayout.CENTER,60,10));
+        this.schedulePanel.setLayout(new FlowLayout(FlowLayout.CENTER, 60, 10));
         for (Iterator it = scheduleList.iterator(); it.hasNext(); ) {
             Schedule schedule = (Schedule) it.next();//get the schedule
 
@@ -52,7 +55,10 @@ public class SchedulePage extends JFrame {
     }
 
 
-    //method to construct the action of choose
+    /**
+     * method to construct the action of choose
+     * @param actionListener
+     */
     public void addListenerToScheduleButtons(ActionListener actionListener) {
         for (Iterator it = this.buttonList.iterator(); it.hasNext(); ) {
             JButton button = (JButton) it.next();

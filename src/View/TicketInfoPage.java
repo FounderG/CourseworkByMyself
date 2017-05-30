@@ -22,6 +22,10 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JScrollPane;
 
+/**
+ * class that represent the ticket info confirm page
+ * @author gaoyiming
+ */
 public class TicketInfoPage extends JFrame {
 
     private JPanel contentPane = new JPanel();
@@ -120,6 +124,10 @@ public class TicketInfoPage extends JFrame {
         return s;
     }
 
+    /**
+     * The actionlistener setter
+     * @param actionListener
+     */
     public void setActionListener(ActionListener actionListener) {
         this.btnReturn.addActionListener(actionListener);
         this.btnYes.addActionListener(actionListener);

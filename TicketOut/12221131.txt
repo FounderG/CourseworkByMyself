@@ -1,0 +1,7 @@
+Ticket ID: 12221131
+Movie Name: LOGAN
+Start Time: 18:00
+Screen: 3
+Seat: C4
+Ticket Type: Student
+Student ID: 1234567

@@ -8,7 +8,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
+/**
+ * The class that use to represent the detailed and confirmed page when you choose a specific movie
+ * @author gaoyiming
+ */
 public class MovieDetailPage extends JFrame {
 
     private JLabel i;// this is the poster of the selected movie
@@ -76,6 +79,10 @@ public class MovieDetailPage extends JFrame {
         return this.movieID;
     }
 
+    /**
+     * The method that use to set the description of a movie
+     * @param none
+     */
     public void getInfo() {
         int a = CharacterParser.getIndexWithMovieID(this.movieID);
         String s = "";
@@ -120,6 +127,10 @@ public class MovieDetailPage extends JFrame {
         p.add(new JScrollPane(des));
     }
 
+    /**
+     * method that use to set the actionlistener to the button components
+     * @param actionListener
+     */
     public void addActionListener(ActionListener actionListener) {
         this.Return.addActionListener(actionListener);
         this.buy.addActionListener(actionListener);

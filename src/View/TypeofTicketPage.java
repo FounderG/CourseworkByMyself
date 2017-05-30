@@ -6,6 +6,10 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
+/**
+ * the class that represent the ticket type choose page
+ * @author gaoyiming
+ */
 public class TypeofTicketPage extends JFrame {
     private JPanel contentPane = new JPanel();//for title
     private JLabel lblTypeOfTicket = new JLabel("Type of Ticket", JLabel.CENTER);
@@ -145,6 +149,10 @@ public class TypeofTicketPage extends JFrame {
         btnYes.setName("Yes");
     }
 
+    /**
+     * Actionlistener setter
+     * @param actionListener
+     */
     public void setActionListener(ActionListener actionListener) {
         this.btnChild.addActionListener(actionListener);
         this.btnAdult.addActionListener(actionListener);

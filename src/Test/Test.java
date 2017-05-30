@@ -11,7 +11,7 @@ import View.*;
 import java.util.ArrayList;
 
 /**
- * Created by gaoyiming on 2017/5/7.
+ * This is the main method, the entrance od the whole system
  */
 public class Test {
     public static void main(String[] args) throws Exception {

@@ -4,7 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
+/**
+ * The class that represent the welcome window
+ * @author gaoyiming
+ * @version 1.0
+ */
 public class WelcomePage extends JFrame {
 
     private JPanel p1 = new JPanel();
@@ -46,6 +50,11 @@ public class WelcomePage extends JFrame {
 
     }
 
+
+    /**
+     * The method that use to set actionlistener to the button components in this window
+     * @param actionListener
+     */
     public void addListener(ActionListener actionListener) {
         this.customer.addActionListener(actionListener);
         this.administrater.addActionListener(actionListener);

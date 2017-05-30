@@ -12,6 +12,10 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 
+/**
+ * The class that represent the farewell page
+ * @author gaoyiming
+ */
 public class GoodByePage extends JFrame implements ActionListener {
 
     private JPanel contentPane = new JPanel();

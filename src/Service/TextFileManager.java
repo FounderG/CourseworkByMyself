@@ -45,6 +45,11 @@ public class TextFileManager {
         }
     }
 
+    /**
+     * method that use to generate the report
+     *
+     * @throws Exception
+     */
     public static void GenerateReport() throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read("Resource/PurchaseList.xml");

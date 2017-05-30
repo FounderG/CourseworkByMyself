@@ -4,7 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
+/**
+ * The class that represent the movie select window
+ * @author gaoyiming
+ */
 public class MovieSelectPage extends JFrame {
 
     private JButton i1;
@@ -61,6 +64,11 @@ public class MovieSelectPage extends JFrame {
         this.add(BorderLayout.CENTER,p);
     }
 
+
+    /**
+     * the method that use to set the actionlistener to teh button components in the window
+     * @param actionListener
+     */
     public void ListenToMovieSelected(ActionListener actionListener) {
         this.i1.addActionListener(actionListener);
         this.i2.addActionListener(actionListener);

@@ -16,6 +16,11 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * The class that represent the screen1
+ *
+ * @author gaoyiming
+ */
 public class Screen1Page extends JFrame {
 
     ArrayList<JButton> seatl = new ArrayList<JButton>();
@@ -89,7 +94,7 @@ public class Screen1Page extends JFrame {
     }
 
     void init() {
-    	
+
         //states initialization
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 8; j++) {
@@ -236,10 +241,10 @@ public class Screen1Page extends JFrame {
         btnYes.setName("Yes");
     }
 
-    /*
-  @param n:row of the seat user choose
-  @param m:number of the seat user choose
-   */
+    /**
+     * @param n:row    of the seat user choose
+     * @param m:number of the seat user choose
+     */
     public void select(int n, int m) {
 
         if (state[4 - n][8 - m] == 0) {
@@ -265,9 +270,13 @@ public class Screen1Page extends JFrame {
         }
 
     }
-    /*
-    function: when we open the layout of screen, if yhe state of seat is 1
-              Then it shows that this seat has been occupied and its color turned to red.
+
+    /**
+     * function: when we open the layout of screen, if yhe state of seat is 1
+     * Then it shows that this seat has been occupied and its color turned to red.
+     *
+     * @param m the no of a row
+     * @param n the row number
      */
 
     public void occupy(int n, int m) {
@@ -302,5 +311,5 @@ public class Screen1Page extends JFrame {
         this.btnYes.addActionListener(actionListener);
         this.btnReturn.addActionListener(actionListener);
     }
-    
+
 }

@@ -205,4 +205,4 @@
             </Ticket>
         </TicketList>
     </PurchaseInfo>
-</PurchaseList>
+<PurchaseInfo ID="cef4c92b-ad9b-4644-b8fe-f94c2bcb619e" Time="2017-05-30T09:40:47.621"><TicketList><Ticket ID="12221131"><Schedule>0014</Schedule><Type>4</Type><Seat>C4</Seat><Price>13.6</Price><Reference>1234567</Reference></Ticket></TicketList></PurchaseInfo></PurchaseList>

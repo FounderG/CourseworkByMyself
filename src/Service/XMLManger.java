@@ -16,6 +16,13 @@ import java.util.List;
  * Created by gaoyiming on 2017/5/7.
  */
 public class XMLManger {
+    /**
+     * method that use to get a sepecific movie using movie ID
+     *
+     * @param id
+     * @return movie
+     * @throws Exception
+     */
     public static Movie getMovieWithID(String id) throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read("Resource/Movies.xml");
@@ -48,7 +55,7 @@ public class XMLManger {
      * this function can return the list of schedules of specific movie using the movie ID
      *
      * @param movieID
-     * @return
+     * @return schedule
      * @throws Exception
      */
     public static ArrayList<Schedule> getScheduleListWithID(String movieID) throws Exception {
@@ -100,6 +107,12 @@ public class XMLManger {
         return mySchedule;
     }
 
+    /**
+     * function that use to update the screen status
+     *
+     * @param schedule
+     * @throws Exception
+     */
     public static void updateSchedule(Schedule schedule) throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read("Resource/Schedule.xml");
@@ -162,6 +175,13 @@ public class XMLManger {
         writer.close();
     }
 
+    /**
+     * method that use to get schedule
+     *
+     * @param scheduleID
+     * @return schedule
+     * @throws Exception
+     */
     public static Schedule getScheduleWithID(String scheduleID) throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read("Resource/Schedule.xml");
@@ -204,6 +224,12 @@ public class XMLManger {
         return null;
     }
 
+    /**
+     * method that use to update the purchase infomation
+     *
+     * @param purchaseInfo
+     * @throws Exception
+     */
     public static void AddPurchaseInfo(PurchaseInfo purchaseInfo) throws Exception {
         SAXReader reader = new SAXReader();
         Document document = reader.read("Resource/PurchaseList.xml");

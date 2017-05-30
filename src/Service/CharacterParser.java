@@ -4,6 +4,12 @@ package Service;
  * Created by gaoyiming on 2017/5/25.
  */
 public class CharacterParser {
+    /**
+     * The Char-Digit parser
+     *
+     * @param row
+     * @return the row with digit format
+     */
     public static int getRowWithChar(String row) {
         switch (row) {
             case "A":
@@ -29,6 +35,12 @@ public class CharacterParser {
         return 0;
     }
 
+    /**
+     * the String-Digit parser
+     *
+     * @param type
+     * @return the ticket type with string format
+     */
     public static String getTicketTypeWithNum(int type) {
         switch (type) {
             case 1:
@@ -44,6 +56,12 @@ public class CharacterParser {
         return "";
     }
 
+    /**
+     * The String-Digit parser
+     *
+     * @param row
+     * @return the row with String format
+     */
     public static String getRowWithNum(int row) {
         switch (row) {
             case 1:
