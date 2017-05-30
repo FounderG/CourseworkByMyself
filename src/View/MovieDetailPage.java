@@ -10,7 +10,6 @@ import java.awt.event.*;
 
 /**
  * The class that use to represent the detailed and confirmed page when you choose a specific movie
- *
  * @author gaoyiming
  */
 public class MovieDetailPage extends JFrame {
@@ -82,6 +81,7 @@ public class MovieDetailPage extends JFrame {
 
     /**
      * The method that use to set the description of a movie
+     * @param none
      */
     public void getInfo() {
         int a = CharacterParser.getIndexWithMovieID(this.movieID);
@@ -129,7 +129,6 @@ public class MovieDetailPage extends JFrame {
 
     /**
      * method that use to set the actionlistener to the button components
-     *
      * @param actionListener
      */
     public void addActionListener(ActionListener actionListener) {
