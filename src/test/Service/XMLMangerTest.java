@@ -4,6 +4,7 @@ import Service.XMLManger;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+import junit.framework.TestCase;
 
 import static org.junit.Assert.*;
 
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
  * @version 1.0
  * @since <pre>五月 30, 2017</pre>
  */
-public class XMLMangerTest {
+public class XMLMangerTest extends TestCase{
     /**
      * Method: getMovieWithID(String id)
      */

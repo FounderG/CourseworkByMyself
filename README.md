@@ -13,7 +13,7 @@ Please follow the steps below to configure and start the application!
 3. Compile the application using the command below(**You need to make sure that your computer has already had JAVA!**)
 ```
 mkdir bin
-javac -d ./bin ./src/Controller/*.java ./src/Model/*.java ./src/Service/*.java ./src/AppEntrance/*.java ./src/View/*.java -cp ./lib/dom4j-1.6.1.jar
+javac -d ./bin ./src/Controller/*.java ./src/Model/*.java ./src/Service/*.java ./src/AppEntrance/*.java ./src/View/*.java ./src/test/Service/*.java -cp ./lib/dom4j-1.6.1.jar:./lib/junit-4.12.jar
 ```
 4. Then launch the application using the command below:
 ```
@@ -23,4 +23,12 @@ java -cp bin/:lib/dom4j-1.6.1.jar AppEntrance.App
 # Thank you for your support, contact us:
 - Github Page: https://github.com/FounderG/CourseworkByMyself
 - Email: yiming.gao@se14.qmul.ac.uk
+
+##PS: If you want to run the JUnit Test, You can use the command below:
+```
+java -cp ./bin:./lib/junit-4.12.jar junit.textui.TestRunner test.Service.CharacterParserTest
+```
+```
+java -cp ./bin:./lib/junit-4.12.jar junit.textui.TestRunner test.Service.XMLManagerTest
+```
  
