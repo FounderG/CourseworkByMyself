@@ -24,7 +24,7 @@ java -cp bin/:lib/dom4j-1.6.1.jar AppEntrance.App
 - Github Page: https://github.com/FounderG/CourseworkByMyself
 - Email: yiming.gao@se14.qmul.ac.uk
 
-##PS: If you want to run the JUnit Test, You can use the command below:
+## **PS: If you want to run the JUnit Test, You can use the command below**:
 ```
 java -cp ./bin:./lib/junit-4.12.jar junit.textui.TestRunner test.Service.CharacterParserTest
 ```
